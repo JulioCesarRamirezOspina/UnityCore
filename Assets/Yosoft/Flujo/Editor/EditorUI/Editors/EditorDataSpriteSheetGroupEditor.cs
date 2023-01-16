@@ -82,7 +82,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.Editors
                 .SetElementSize(ElementSize.Small)
                 .SetOnClick(LoadTexturesFromFolder);
 
-            categoryComponentField = FluidField.Get("SpriteSheet Category Name").SetIcon(EditorSpriteSheets.EditorUI.Icons.SpriteSheet);
+            categoryComponentField = FluidField.Get("SpriteSheet Category Name").SetIcon(EditorSpriteSheets.EditorUI.Icons.Sprite);
             TextField categoryTextField = DesignUtils.NewTextField("GroupCategory", true).SetStyleFlexGrow(1);
             categoryTextField.RegisterValueChangedCallback(evt =>
             {

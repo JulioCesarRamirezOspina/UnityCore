@@ -51,7 +51,7 @@ namespace Yosoft.Flujo.Runtime.Common
 				default: throw new ArgumentOutOfRangeException(nameof(logType), logType, null);
 			}
 
-			return $"<color={colorCode}><b>DOOZY ››› </b></color>";
+			return $"<color={colorCode}><b>YOSOFT UI ››› </b></color>";
 		}
 
 		/// <summary> Log a message to the console </summary>
