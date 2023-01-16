@@ -14,4 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DatabaseName: Editor Styles (USS)
   DatabaseDescription: Collections of USS styles used in the Editor
-  Database: []
+  Database:
+  - {fileID: 11400000, guid: 2f63f60f2439d29409bb5707fa049c50, type: 2}
+  - {fileID: 11400000, guid: 77081e768e9095f42af5695aa85ae413, type: 2}
+  - {fileID: 11400000, guid: 1380d5688d39bf54f80244d38bf2cbde, type: 2}
+  - {fileID: 11400000, guid: 6c9860f584c0c3c42bcf59b0467df895, type: 2}
+  - {fileID: 11400000, guid: 4c007acea13cc2248a37f23211a222d7, type: 2}

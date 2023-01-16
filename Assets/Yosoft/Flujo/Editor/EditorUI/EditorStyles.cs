@@ -1,3 +1,5 @@
+// Copyright (c) 2023 Yosoft Creativo Todos los derechos reservados.
+
 //.........................
 //.....Generated Class.....
 //.........................
@@ -5,8 +7,8 @@
 //.........................
 
 using System.Diagnostics.CodeAnalysis;
-using UnityEngine.UIElements;
 using Yosoft.Flujo.Editor.EditorUI.ScriptableObjects.Styles;
+using UnityEngine.UIElements;
 
 namespace Yosoft.Flujo.Editor.EditorUI
 {
@@ -152,63 +154,6 @@ namespace Yosoft.Flujo.Editor.EditorUI
         }
 
 
-        public static class Mody
-        {
-            private static EditorDataStyleGroup s_styleGroup;
-            private static EditorDataStyleGroup styleGroup =>
-                s_styleGroup != null
-                    ? s_styleGroup
-                    : s_styleGroup = EditorDataStyleDatabase.GetStyleGroup("Mody");
-
-            public static StyleSheet GetStyleSheet(StyleName styleName) =>
-                styleGroup.GetStyleSheet(styleName.ToString());
-
-            public enum StyleName
-            {
-                ModyActionRunner,
-                ModyStateIndicator
-            }
-            
-            private static StyleSheet s_ModyActionRunner;
-            public static StyleSheet ModyActionRunner => s_ModyActionRunner ? s_ModyActionRunner : s_ModyActionRunner = GetStyleSheet(StyleName.ModyActionRunner);
-            private static StyleSheet s_ModyStateIndicator;
-            public static StyleSheet ModyStateIndicator => s_ModyStateIndicator ? s_ModyStateIndicator : s_ModyStateIndicator = GetStyleSheet(StyleName.ModyStateIndicator);            
-        }
-
-
-        public static class Nody
-        {
-            private static EditorDataStyleGroup s_styleGroup;
-            private static EditorDataStyleGroup styleGroup =>
-                s_styleGroup != null
-                    ? s_styleGroup
-                    : s_styleGroup = EditorDataStyleDatabase.GetStyleGroup("Nody");
-
-            public static StyleSheet GetStyleSheet(StyleName styleName) =>
-                styleGroup.GetStyleSheet(styleName.ToString());
-
-            public enum StyleName
-            {
-                FlowPort,
-                NodeView,
-                NodyInspectorWindow,
-                NodyWindow,
-                PivotNode
-            }
-            
-            private static StyleSheet s_FlowPort;
-            public static StyleSheet FlowPort => s_FlowPort ? s_FlowPort : s_FlowPort = GetStyleSheet(StyleName.FlowPort);
-            private static StyleSheet s_NodeView;
-            public static StyleSheet NodeView => s_NodeView ? s_NodeView : s_NodeView = GetStyleSheet(StyleName.NodeView);
-            private static StyleSheet s_NodyInspectorWindow;
-            public static StyleSheet NodyInspectorWindow => s_NodyInspectorWindow ? s_NodyInspectorWindow : s_NodyInspectorWindow = GetStyleSheet(StyleName.NodyInspectorWindow);
-            private static StyleSheet s_NodyWindow;
-            public static StyleSheet NodyWindow => s_NodyWindow ? s_NodyWindow : s_NodyWindow = GetStyleSheet(StyleName.NodyWindow);
-            private static StyleSheet s_PivotNode;
-            public static StyleSheet PivotNode => s_PivotNode ? s_PivotNode : s_PivotNode = GetStyleSheet(StyleName.PivotNode);            
-        }
-
-
         public static class Reactor
         {
             private static EditorDataStyleGroup s_styleGroup;
@@ -239,36 +184,6 @@ namespace Yosoft.Flujo.Editor.EditorUI
             public static StyleSheet ReactorWindow => s_ReactorWindow ? s_ReactorWindow : s_ReactorWindow = GetStyleSheet(StyleName.ReactorWindow);
             private static StyleSheet s_TickerVisualizer;
             public static StyleSheet TickerVisualizer => s_TickerVisualizer ? s_TickerVisualizer : s_TickerVisualizer = GetStyleSheet(StyleName.TickerVisualizer);            
-        }
-
-
-        public static class Signals
-        {
-            private static EditorDataStyleGroup s_styleGroup;
-            private static EditorDataStyleGroup styleGroup =>
-                s_styleGroup != null
-                    ? s_styleGroup
-                    : s_styleGroup = EditorDataStyleDatabase.GetStyleGroup("Signals");
-
-            public static StyleSheet GetStyleSheet(StyleName styleName) =>
-                styleGroup.GetStyleSheet(styleName.ToString());
-
-            public enum StyleName
-            {
-                ProvidersConsoleRow,
-                SignalsConsoleRow,
-                SignalsWindow,
-                StreamsConsoleRow
-            }
-            
-            private static StyleSheet s_ProvidersConsoleRow;
-            public static StyleSheet ProvidersConsoleRow => s_ProvidersConsoleRow ? s_ProvidersConsoleRow : s_ProvidersConsoleRow = GetStyleSheet(StyleName.ProvidersConsoleRow);
-            private static StyleSheet s_SignalsConsoleRow;
-            public static StyleSheet SignalsConsoleRow => s_SignalsConsoleRow ? s_SignalsConsoleRow : s_SignalsConsoleRow = GetStyleSheet(StyleName.SignalsConsoleRow);
-            private static StyleSheet s_SignalsWindow;
-            public static StyleSheet SignalsWindow => s_SignalsWindow ? s_SignalsWindow : s_SignalsWindow = GetStyleSheet(StyleName.SignalsWindow);
-            private static StyleSheet s_StreamsConsoleRow;
-            public static StyleSheet StreamsConsoleRow => s_StreamsConsoleRow ? s_StreamsConsoleRow : s_StreamsConsoleRow = GetStyleSheet(StyleName.StreamsConsoleRow);            
         }
 
 
