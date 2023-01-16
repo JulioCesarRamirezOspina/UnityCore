@@ -75,7 +75,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.Editors
             root = DesignUtils.GetEditorRoot();
 
             loadFilesFromFolderButton = FluidButton.Get()
-                .SetIcon(EditorSpriteSheets.UIManager.Icons.BackButton)
+                .SetIcon(EditorSpriteSheets.EditorUI.Icons.Search)
                 .SetLabelText("Load all .png files from the current folder")
                 .SetAccentColor(EditorSelectableColors.EditorUI.Amber)
                 .SetButtonStyle(ButtonStyle.Contained)

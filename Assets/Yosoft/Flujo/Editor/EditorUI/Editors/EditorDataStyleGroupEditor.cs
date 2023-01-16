@@ -82,7 +82,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.Editors
             
             loadFilesFromFolderButton =
                 FluidButton.Get()
-                    .SetIcon(EditorSpriteSheets.UIManager.Icons.BackButton)
+                    .SetIcon(EditorSpriteSheets.EditorUI.Icons.Search)
                     .SetLabelText("Load all .uss files from the current folder")
                     .SetAccentColor(EditorSelectableColors.EditorUI.Amber)
                     .SetButtonStyle(ButtonStyle.Contained)

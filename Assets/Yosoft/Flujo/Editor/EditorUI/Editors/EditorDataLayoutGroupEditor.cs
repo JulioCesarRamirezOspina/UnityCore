@@ -81,7 +81,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.Editors
             root = DesignUtils.GetEditorRoot();
 
             loadFilesFromFolderButton = FluidButton.Get()
-                .SetIcon(EditorSpriteSheets.UIManager.Icons.BackButton)
+                .SetIcon(EditorSpriteSheets.EditorUI.Icons.Search)
                 .SetLabelText("Load all .uxml files from the current folder")
                 .SetAccentColor(EditorSelectableColors.EditorUI.Amber)
                 .SetButtonStyle(ButtonStyle.Contained)

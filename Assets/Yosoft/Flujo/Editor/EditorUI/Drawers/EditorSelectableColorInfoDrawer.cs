@@ -53,7 +53,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.Drawers
 
             FluidButton button = 
                 FluidButton.Get()
-                .SetIcon(EditorSpriteSheets.UIManager.Icons.BackButton)
+                .SetIcon(EditorSpriteSheets.EditorUI.Icons.SelectableColorGenerator)
                 .SetTooltip(tooltip)
                 .AddClass("ESColorInfo")
                 .SetName(elementName)
