@@ -35,7 +35,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.Windows
             EditorDataSelectableColorDatabase.instance.RefreshDatabase();
             EditorDataSpriteSheetDatabase.instance.RefreshDatabase();
             EditorDataStyleDatabase.instance.RefreshDatabase();
-            // EditorDataTextureDatabase.instance.RefreshDatabase();
+            EditorDataTextureDatabase.instance.RefreshDatabase();
         }
 
         public static EditorSelectableColorInfo buttonAccentColor => EditorSelectableColors.EditorUI.Amber;
