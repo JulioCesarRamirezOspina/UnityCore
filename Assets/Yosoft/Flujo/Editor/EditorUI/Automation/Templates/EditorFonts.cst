@@ -1,0 +1,31 @@
+﻿// Copyright (c) 2023 Yosoft Creativo Todos los derechos reservados.
+
+//.........................
+//.....Generated Class.....
+//.........................
+//.......Do not edit.......
+//.........................
+
+using System.Diagnostics.CodeAnalysis;
+using Yosoft.Flujo.Editor.EditorUI.ScriptableObjects.Fonts;
+using Yosoft.Flujo.Editor.EditorUI.Utils;
+using UnityEngine;
+
+namespace Yosoft.Flujo.Editor.EditorUI
+{
+    [SuppressMessage("ReSharper", "IdentifierTypo")]
+    [SuppressMessage("ReSharper", "MemberCanBePrivate.Global")]
+    [SuppressMessage("ReSharper", "StringLiteralTypo")]
+    [SuppressMessage("ReSharper", "UnusedType.Global")]
+    [SuppressMessage("ReSharper", "InconsistentNaming")]
+    public static class EditorFonts
+    {
+        public static class Default
+        {
+            public static Font GetFont() =>
+                DesignUtils.unityDefaultFont;
+        }
+
+//CONTENT//
+    }
+}

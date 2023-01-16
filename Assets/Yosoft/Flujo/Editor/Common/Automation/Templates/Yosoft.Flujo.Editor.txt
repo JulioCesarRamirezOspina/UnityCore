@@ -1,0 +1,19 @@
+﻿{
+    "name": "YosoftFlujoEditor",
+    "rootNamespace": "",
+    "references": [
+        "YosoftFlujoRuntime",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

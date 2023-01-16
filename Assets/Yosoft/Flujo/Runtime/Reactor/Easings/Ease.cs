@@ -1,0 +1,44 @@
+﻿//easings.net
+
+namespace Yosoft.Flujo.Runtime.Reactor.Easings
+{
+    public enum Ease
+    {
+        Linear,
+        Easy,
+        InEasy,
+        OutEasy,
+        InOutEasy,
+        InSine,
+        OutSine,
+        InOutSine,
+        InQuad,
+        OutQuad,
+        InOutQuad,
+        InCubic,
+        OutCubic,
+        InOutCubic,
+        InQuart,
+        OutQuart,
+        InOutQuart,
+        InQuint,
+        OutQuint,
+        InOutQuint,
+        InExpo,
+        OutExpo,
+        InOutExpo,
+        InCirc,
+        OutCirc,
+        InOutCirc,
+        InBack,
+        OutBack,
+        InOutBack,
+        InElastic,
+        OutElastic,
+        InOutElastic,
+        InBounce,
+        OutBounce,
+        InOutBounce,
+        Spring,
+    }
+}
