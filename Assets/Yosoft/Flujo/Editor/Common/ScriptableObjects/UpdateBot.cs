@@ -13,7 +13,7 @@ namespace Yosoft.Flujo.Editor.Common.ScriptableObjects
     {
         public bool Update = false;
 
-        [InitializeOnLoadMethod]
+        // [InitializeOnLoadMethod]
         public static void Initialize()
         {
             if (!instance.Update) return;
