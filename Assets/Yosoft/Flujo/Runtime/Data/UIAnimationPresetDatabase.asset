@@ -14,36 +14,71 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowPresets:
     GroupAnimationType: 0
-    Presets: []
-    CategoryNames: []
-    PresetCategories: []
+    Presets:
+    - {fileID: 11400000, guid: d7db70bd48774f6ead5ccde7c9349f7e, type: 2}
+    CategoryNames:
+    - Default
+    PresetCategories:
+    - Category: Default
+      Names:
+      - Default
   HidePresets:
     GroupAnimationType: 1
-    Presets: []
-    CategoryNames: []
-    PresetCategories: []
+    Presets:
+    - {fileID: 11400000, guid: 2d5987012ce54864a50d084654636bb7, type: 2}
+    CategoryNames:
+    - Default
+    PresetCategories:
+    - Category: Default
+      Names:
+      - Default
   LoopPresets:
     GroupAnimationType: 2
-    Presets: []
-    CategoryNames: []
-    PresetCategories: []
+    Presets:
+    - {fileID: 11400000, guid: 59a1046676ef44dd9d66985e67bbde00, type: 2}
+    CategoryNames:
+    - Default
+    PresetCategories:
+    - Category: Default
+      Names:
+      - Default
   ButtonPresets:
     GroupAnimationType: 3
-    Presets: []
-    CategoryNames: []
-    PresetCategories: []
+    Presets:
+    - {fileID: 11400000, guid: 5dd29eecfde649b8b58c85c33ddca292, type: 2}
+    CategoryNames:
+    - Default
+    PresetCategories:
+    - Category: Default
+      Names:
+      - Default
   StatePresets:
     GroupAnimationType: 4
-    Presets: []
-    CategoryNames: []
-    PresetCategories: []
+    Presets:
+    - {fileID: 11400000, guid: 70709943200342378a83fe53be36ca0c, type: 2}
+    CategoryNames:
+    - Default
+    PresetCategories:
+    - Category: Default
+      Names:
+      - Default
   ResetPresets:
     GroupAnimationType: 5
-    Presets: []
-    CategoryNames: []
-    PresetCategories: []
+    Presets:
+    - {fileID: 11400000, guid: 461969e0f57c46fd88e3356b1596a5f1, type: 2}
+    CategoryNames:
+    - Default
+    PresetCategories:
+    - Category: Default
+      Names:
+      - Default
   CustomPresets:
     GroupAnimationType: 6
-    Presets: []
-    CategoryNames: []
-    PresetCategories: []
+    Presets:
+    - {fileID: 11400000, guid: 92f91b2abd544e3d9f3b18f0af248e53, type: 2}
+    CategoryNames:
+    - Default
+    PresetCategories:
+    - Category: Default
+      Names:
+      - Default
