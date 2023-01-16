@@ -9,19 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eeb8e764fd22413493ff9a0053f321d0, type: 3}
+  m_Script: {fileID: 11500000, guid: 58d83c4fa9f34a2ba336a3174312266a, type: 3}
   m_Name: _ColorPalette_Default
   m_EditorClassIdentifier: 
   PaletteName: Default
   Colors:
   - ColorName: Action
     ThemeColor:
-      ColorOnDark: {r: 0.84705883, g: 1, b: 0.2, a: 1}
-      ColorOnLight: {r: 0.4509804, g: 0.49803922, b: 0, a: 1}
-  - ColorName: Action
-    ThemeColor:
-      ColorOnDark: {r: 0.84705883, g: 1, b: 0.2, a: 1}
-      ColorOnLight: {r: 0.4509804, g: 0.49803922, b: 0, a: 1}
+      ColorOnDark: {r: 0.85, g: 0.31, b: 0.45, a: 1}
+      ColorOnLight: {r: 0.51, g: 0.14, b: 0.17, a: 1}
   - ColorName: Add
     ThemeColor:
       ColorOnDark: {r: 0.41176474, g: 0.87843144, b: 0.54509807, a: 1}

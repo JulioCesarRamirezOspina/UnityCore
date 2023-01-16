@@ -6,9 +6,9 @@
 
 using System;
 using System.Diagnostics.CodeAnalysis;
-using UnityEngine;
 using Yosoft.Flujo.Editor.EditorUI.ScriptableObjects.Colors;
 using Yosoft.Flujo.Runtime.Colors;
+using UnityEngine;
 
 namespace Yosoft.Flujo.Editor.EditorUI
 {
@@ -220,116 +220,25 @@ namespace Yosoft.Flujo.Editor.EditorUI
           
         }
 
-        public static class Mody
+        public static class PruebaColor
         {
             private static EditorDataColorPalette s_colorPalette;
             private static EditorDataColorPalette colorPalette =>
                 s_colorPalette != null
                     ? s_colorPalette
-                    : s_colorPalette = EditorDataColorDatabase.GetColorPalette("Mody");
+                    : s_colorPalette = EditorDataColorDatabase.GetColorPalette("PruebaColor");
             
             public static Color GetColor(ColorName colorName) =>
                 colorPalette.GetColor(colorName.ToString());
                 
             public enum ColorName
             {
-                Action,
-                Module,
-                StateActive,
-                StateCooldown,
-                StateDisabled,
-                StateIdle,
-                Trigger
+                Primary
             }
             
 
-            private static Color? s_Action;
-            public static Color Action => (Color) (s_Action ?? (s_Action = GetColor(ColorName.Action)));
-            private static Color? s_Module;
-            public static Color Module => (Color) (s_Module ?? (s_Module = GetColor(ColorName.Module)));
-            private static Color? s_StateActive;
-            public static Color StateActive => (Color) (s_StateActive ?? (s_StateActive = GetColor(ColorName.StateActive)));
-            private static Color? s_StateCooldown;
-            public static Color StateCooldown => (Color) (s_StateCooldown ?? (s_StateCooldown = GetColor(ColorName.StateCooldown)));
-            private static Color? s_StateDisabled;
-            public static Color StateDisabled => (Color) (s_StateDisabled ?? (s_StateDisabled = GetColor(ColorName.StateDisabled)));
-            private static Color? s_StateIdle;
-            public static Color StateIdle => (Color) (s_StateIdle ?? (s_StateIdle = GetColor(ColorName.StateIdle)));
-            private static Color? s_Trigger;
-            public static Color Trigger => (Color) (s_Trigger ?? (s_Trigger = GetColor(ColorName.Trigger)));
-          
-        }
-
-        public static class Nody
-        {
-            private static EditorDataColorPalette s_colorPalette;
-            private static EditorDataColorPalette colorPalette =>
-                s_colorPalette != null
-                    ? s_colorPalette
-                    : s_colorPalette = EditorDataColorDatabase.GetColorPalette("Nody");
-            
-            public static Color GetColor(ColorName colorName) =>
-                colorPalette.GetColor(colorName.ToString());
-                
-            public enum ColorName
-            {
-                BackFlow,
-                Color,
-                ExitNode,
-                GridBackground,
-                Input,
-                LineColor,
-                MiniMapBackground,
-                NodeBackground,
-                NodeIcon,
-                NodeTitle,
-                Output,
-                Selection,
-                StartNode,
-                StateActive,
-                StateIdle,
-                StateRunning,
-                StickyNote,
-                ThickLineColor
-            }
-            
-
-            private static Color? s_BackFlow;
-            public static Color BackFlow => (Color) (s_BackFlow ?? (s_BackFlow = GetColor(ColorName.BackFlow)));
-            private static Color? s_Color;
-            public static Color Color => (Color) (s_Color ?? (s_Color = GetColor(ColorName.Color)));
-            private static Color? s_ExitNode;
-            public static Color ExitNode => (Color) (s_ExitNode ?? (s_ExitNode = GetColor(ColorName.ExitNode)));
-            private static Color? s_GridBackground;
-            public static Color GridBackground => (Color) (s_GridBackground ?? (s_GridBackground = GetColor(ColorName.GridBackground)));
-            private static Color? s_Input;
-            public static Color Input => (Color) (s_Input ?? (s_Input = GetColor(ColorName.Input)));
-            private static Color? s_LineColor;
-            public static Color LineColor => (Color) (s_LineColor ?? (s_LineColor = GetColor(ColorName.LineColor)));
-            private static Color? s_MiniMapBackground;
-            public static Color MiniMapBackground => (Color) (s_MiniMapBackground ?? (s_MiniMapBackground = GetColor(ColorName.MiniMapBackground)));
-            private static Color? s_NodeBackground;
-            public static Color NodeBackground => (Color) (s_NodeBackground ?? (s_NodeBackground = GetColor(ColorName.NodeBackground)));
-            private static Color? s_NodeIcon;
-            public static Color NodeIcon => (Color) (s_NodeIcon ?? (s_NodeIcon = GetColor(ColorName.NodeIcon)));
-            private static Color? s_NodeTitle;
-            public static Color NodeTitle => (Color) (s_NodeTitle ?? (s_NodeTitle = GetColor(ColorName.NodeTitle)));
-            private static Color? s_Output;
-            public static Color Output => (Color) (s_Output ?? (s_Output = GetColor(ColorName.Output)));
-            private static Color? s_Selection;
-            public static Color Selection => (Color) (s_Selection ?? (s_Selection = GetColor(ColorName.Selection)));
-            private static Color? s_StartNode;
-            public static Color StartNode => (Color) (s_StartNode ?? (s_StartNode = GetColor(ColorName.StartNode)));
-            private static Color? s_StateActive;
-            public static Color StateActive => (Color) (s_StateActive ?? (s_StateActive = GetColor(ColorName.StateActive)));
-            private static Color? s_StateIdle;
-            public static Color StateIdle => (Color) (s_StateIdle ?? (s_StateIdle = GetColor(ColorName.StateIdle)));
-            private static Color? s_StateRunning;
-            public static Color StateRunning => (Color) (s_StateRunning ?? (s_StateRunning = GetColor(ColorName.StateRunning)));
-            private static Color? s_StickyNote;
-            public static Color StickyNote => (Color) (s_StickyNote ?? (s_StickyNote = GetColor(ColorName.StickyNote)));
-            private static Color? s_ThickLineColor;
-            public static Color ThickLineColor => (Color) (s_ThickLineColor ?? (s_ThickLineColor = GetColor(ColorName.ThickLineColor)));
+            private static Color? s_Primary;
+            public static Color Primary => (Color) (s_Primary ?? (s_Primary = GetColor(ColorName.Primary)));
           
         }
 
@@ -370,81 +279,6 @@ namespace Yosoft.Flujo.Editor.EditorUI
             public static Color Rotate => (Color) (s_Rotate ?? (s_Rotate = GetColor(ColorName.Rotate)));
             private static Color? s_Scale;
             public static Color Scale => (Color) (s_Scale ?? (s_Scale = GetColor(ColorName.Scale)));
-          
-        }
-
-        public static class SceneManagement
-        {
-            private static EditorDataColorPalette s_colorPalette;
-            private static EditorDataColorPalette colorPalette =>
-                s_colorPalette != null
-                    ? s_colorPalette
-                    : s_colorPalette = EditorDataColorDatabase.GetColorPalette("SceneManagement");
-            
-            public static Color GetColor(ColorName colorName) =>
-                colorPalette.GetColor(colorName.ToString());
-                
-            public enum ColorName
-            {
-                Component
-            }
-            
-
-            private static Color? s_Component;
-            public static Color Component => (Color) (s_Component ?? (s_Component = GetColor(ColorName.Component)));
-          
-        }
-
-        public static class Signals
-        {
-            private static EditorDataColorPalette s_colorPalette;
-            private static EditorDataColorPalette colorPalette =>
-                s_colorPalette != null
-                    ? s_colorPalette
-                    : s_colorPalette = EditorDataColorDatabase.GetColorPalette("Signals");
-            
-            public static Color GetColor(ColorName colorName) =>
-                colorPalette.GetColor(colorName.ToString());
-                
-            public enum ColorName
-            {
-                Provider,
-                Receiver,
-                Signal,
-                Stream
-            }
-            
-
-            private static Color? s_Provider;
-            public static Color Provider => (Color) (s_Provider ?? (s_Provider = GetColor(ColorName.Provider)));
-            private static Color? s_Receiver;
-            public static Color Receiver => (Color) (s_Receiver ?? (s_Receiver = GetColor(ColorName.Receiver)));
-            private static Color? s_Signal;
-            public static Color Signal => (Color) (s_Signal ?? (s_Signal = GetColor(ColorName.Signal)));
-            private static Color? s_Stream;
-            public static Color Stream => (Color) (s_Stream ?? (s_Stream = GetColor(ColorName.Stream)));
-          
-        }
-
-        public static class UIDesigner
-        {
-            private static EditorDataColorPalette s_colorPalette;
-            private static EditorDataColorPalette colorPalette =>
-                s_colorPalette != null
-                    ? s_colorPalette
-                    : s_colorPalette = EditorDataColorDatabase.GetColorPalette("UIDesigner");
-            
-            public static Color GetColor(ColorName colorName) =>
-                colorPalette.GetColor(colorName.ToString());
-                
-            public enum ColorName
-            {
-                Color
-            }
-            
-
-            private static Color? s_Color;
-            public static Color Color => (Color) (s_Color ?? (s_Color = GetColor(ColorName.Color)));
           
         }
 

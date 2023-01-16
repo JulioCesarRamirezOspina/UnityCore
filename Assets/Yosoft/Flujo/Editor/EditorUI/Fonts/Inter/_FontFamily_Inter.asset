@@ -9,26 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cab4e994137470bb284175feb36c9d7, type: 3}
+  m_Script: {fileID: 11500000, guid: f2fe8a0493b34e60aa646b0942f059f3, type: 3}
   m_Name: _FontFamily_Inter
   m_EditorClassIdentifier: 
   FontName: Inter
   Fonts:
-  - FontReference: {fileID: 12800000, guid: 7d5ab3cf44939d64fb38cc116c71c6c0, type: 3}
+  - FontReference: {fileID: 12800000, guid: ef5bc456342f43428f26dd1870bce547, type: 3}
     Weight: 100
-  - FontReference: {fileID: 12800000, guid: db24a0a641b28194f9433ee57dd230ef, type: 3}
+  - FontReference: {fileID: 12800000, guid: 28b7a50b066f470bb44f7ffe7531e12c, type: 3}
     Weight: 200
-  - FontReference: {fileID: 12800000, guid: fe77d1dc79e978541ab7be0bfbf99854, type: 3}
+  - FontReference: {fileID: 12800000, guid: 19228718254e4700ab4d10005175e4cb, type: 3}
     Weight: 300
-  - FontReference: {fileID: 12800000, guid: 0a8559e64776cbb489061842410a9308, type: 3}
+  - FontReference: {fileID: 12800000, guid: 05e251a4754742a9a1432d0d518bd11f, type: 3}
     Weight: 400
-  - FontReference: {fileID: 12800000, guid: cfd1735e6919856448fee7d1e7c3ef7c, type: 3}
+  - FontReference: {fileID: 12800000, guid: 4891dbaf0052483d9a36a79fd8ca4791, type: 3}
     Weight: 500
-  - FontReference: {fileID: 12800000, guid: b45a86e31f34d65489249366a199c075, type: 3}
+  - FontReference: {fileID: 12800000, guid: b3fd64856df640c4b688194721f710c4, type: 3}
     Weight: 600
-  - FontReference: {fileID: 12800000, guid: 4c2b38b05368f1c4fbdf9b356e6df015, type: 3}
+  - FontReference: {fileID: 12800000, guid: 5e492141981d4f51838b160e7574a6bf, type: 3}
     Weight: 700
-  - FontReference: {fileID: 12800000, guid: b0a1088b8ceaa02409db493d59b9cade, type: 3}
+  - FontReference: {fileID: 12800000, guid: da4761fa21d04d53a169f5d8e54a2eb6, type: 3}
     Weight: 800
-  - FontReference: {fileID: 12800000, guid: 77c7b0d2c317e7d46958345b2c3e764f, type: 3}
+  - FontReference: {fileID: 12800000, guid: 8793d138e11c4502b2850ce4bf636d8b, type: 3}
     Weight: 900

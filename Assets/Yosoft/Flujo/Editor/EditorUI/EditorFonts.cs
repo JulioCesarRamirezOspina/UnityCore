@@ -1,3 +1,5 @@
+// Copyright (c) 2023 Yosoft Creativo Todos los derechos reservados.
+
 //.........................
 //.....Generated Class.....
 //.........................
@@ -5,9 +7,9 @@
 //.........................
 
 using System.Diagnostics.CodeAnalysis;
-using UnityEngine;
 using Yosoft.Flujo.Editor.EditorUI.ScriptableObjects.Fonts;
 using Yosoft.Flujo.Editor.EditorUI.Utils;
+using UnityEngine;
 
 namespace Yosoft.Flujo.Editor.EditorUI
 {

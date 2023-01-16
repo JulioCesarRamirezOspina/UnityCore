@@ -14,4 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DatabaseName: Editor Layouts (UXML)
   DatabaseDescription: Collections of UXML layouts used in the Editor
-  Database: []
+  Database:
+  - {fileID: 11400000, guid: 2c31a138a75a4abf9abc97ab430108a7, type: 2}
+  - {fileID: 11400000, guid: 08bd0c9df55c4f9088dcbf57157ec3b9, type: 2}
+  - {fileID: 11400000, guid: 07511e520ebb4a6aa6fef31e60269fa9, type: 2}
+  - {fileID: 11400000, guid: ba3183f4f3154919a6b6de95acad2baa, type: 2}

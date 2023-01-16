@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DatabaseName: Editor Fonts
   DatabaseDescription: Collection of Fonts used in the Editor
-  Database: []
+  Database:
+  - {fileID: 11400000, guid: ea326e860c634771b0e309572d6292b8, type: 2}
+  - {fileID: 11400000, guid: f4e776981695494283a0cecda9a59d8d, type: 2}
+  - {fileID: 11400000, guid: 4744e3fb120f41f695393e9d15d0e571, type: 2}

@@ -1,3 +1,5 @@
+// Copyright (c) 2023 Yosoft Creativo Todos los derechos reservados.
+
 //.........................
 //.....Generated Class.....
 //.........................
@@ -5,8 +7,8 @@
 //.........................
 
 using System.Diagnostics.CodeAnalysis;
-using UnityEngine.UIElements;
 using Yosoft.Flujo.Editor.EditorUI.ScriptableObjects.Layouts;
+using UnityEngine.UIElements;
 
 namespace Yosoft.Flujo.Editor.EditorUI
 {
@@ -143,61 +145,6 @@ namespace Yosoft.Flujo.Editor.EditorUI
         }
 
 
-        public static class Mody
-        {
-            private static EditorDataLayoutGroup s_layoutGroup;
-            private static EditorDataLayoutGroup layoutGroup =>
-                s_layoutGroup != null
-                    ? s_layoutGroup
-                    : s_layoutGroup = EditorDataLayoutDatabase.GetLayoutGroup("Mody");
-
-            public static VisualTreeAsset GetVisualTreeAsset(LayoutName layoutName) =>
-                layoutGroup.GetVisualTreeAsset(layoutName.ToString());
-
-            public enum LayoutName
-            {
-                ModyActionRunner,
-                ModyStateIndicator                     
-            }
-            
-
-            private static VisualTreeAsset s_ModyActionRunner;
-            public static VisualTreeAsset ModyActionRunner => s_ModyActionRunner ? s_ModyActionRunner : s_ModyActionRunner = GetVisualTreeAsset(LayoutName.ModyActionRunner);
-            private static VisualTreeAsset s_ModyStateIndicator;
-            public static VisualTreeAsset ModyStateIndicator => s_ModyStateIndicator ? s_ModyStateIndicator : s_ModyStateIndicator = GetVisualTreeAsset(LayoutName.ModyStateIndicator);
-
-        }
-
-
-        public static class Nody
-        {
-            private static EditorDataLayoutGroup s_layoutGroup;
-            private static EditorDataLayoutGroup layoutGroup =>
-                s_layoutGroup != null
-                    ? s_layoutGroup
-                    : s_layoutGroup = EditorDataLayoutDatabase.GetLayoutGroup("Nody");
-
-            public static VisualTreeAsset GetVisualTreeAsset(LayoutName layoutName) =>
-                layoutGroup.GetVisualTreeAsset(layoutName.ToString());
-
-            public enum LayoutName
-            {
-                NodeView,
-                NodyInspectorWindow,
-                NodyWindow                     
-            }
-            
-
-            private static VisualTreeAsset s_NodeView;
-            public static VisualTreeAsset NodeView => s_NodeView ? s_NodeView : s_NodeView = GetVisualTreeAsset(LayoutName.NodeView);
-            private static VisualTreeAsset s_NodyInspectorWindow;
-            public static VisualTreeAsset NodyInspectorWindow => s_NodyInspectorWindow ? s_NodyInspectorWindow : s_NodyInspectorWindow = GetVisualTreeAsset(LayoutName.NodyInspectorWindow);
-            private static VisualTreeAsset s_NodyWindow;
-            public static VisualTreeAsset NodyWindow => s_NodyWindow ? s_NodyWindow : s_NodyWindow = GetVisualTreeAsset(LayoutName.NodyWindow);
-
-        }
-
-
         public static class Reactor
         {
             private static EditorDataLayoutGroup s_layoutGroup;
@@ -229,38 +176,6 @@ namespace Yosoft.Flujo.Editor.EditorUI
             public static VisualTreeAsset ReactorWindow => s_ReactorWindow ? s_ReactorWindow : s_ReactorWindow = GetVisualTreeAsset(LayoutName.ReactorWindow);
             private static VisualTreeAsset s_TickerVisualizer;
             public static VisualTreeAsset TickerVisualizer => s_TickerVisualizer ? s_TickerVisualizer : s_TickerVisualizer = GetVisualTreeAsset(LayoutName.TickerVisualizer);
-
-        }
-
-
-        public static class Signals
-        {
-            private static EditorDataLayoutGroup s_layoutGroup;
-            private static EditorDataLayoutGroup layoutGroup =>
-                s_layoutGroup != null
-                    ? s_layoutGroup
-                    : s_layoutGroup = EditorDataLayoutDatabase.GetLayoutGroup("Signals");
-
-            public static VisualTreeAsset GetVisualTreeAsset(LayoutName layoutName) =>
-                layoutGroup.GetVisualTreeAsset(layoutName.ToString());
-
-            public enum LayoutName
-            {
-                ProvidersConsoleRow,
-                SignalsConsoleRow,
-                SignalsWindow,
-                StreamsConsoleRow                     
-            }
-            
-
-            private static VisualTreeAsset s_ProvidersConsoleRow;
-            public static VisualTreeAsset ProvidersConsoleRow => s_ProvidersConsoleRow ? s_ProvidersConsoleRow : s_ProvidersConsoleRow = GetVisualTreeAsset(LayoutName.ProvidersConsoleRow);
-            private static VisualTreeAsset s_SignalsConsoleRow;
-            public static VisualTreeAsset SignalsConsoleRow => s_SignalsConsoleRow ? s_SignalsConsoleRow : s_SignalsConsoleRow = GetVisualTreeAsset(LayoutName.SignalsConsoleRow);
-            private static VisualTreeAsset s_SignalsWindow;
-            public static VisualTreeAsset SignalsWindow => s_SignalsWindow ? s_SignalsWindow : s_SignalsWindow = GetVisualTreeAsset(LayoutName.SignalsWindow);
-            private static VisualTreeAsset s_StreamsConsoleRow;
-            public static VisualTreeAsset StreamsConsoleRow => s_StreamsConsoleRow ? s_StreamsConsoleRow : s_StreamsConsoleRow = GetVisualTreeAsset(LayoutName.StreamsConsoleRow);
 
         }
 

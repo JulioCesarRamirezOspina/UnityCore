@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61e20e2f472648eb83d3d869aecd7a20, type: 3}
-  m_Name: _LayoutGroup_Common
+  m_Name: _LayoutGroup_UIManager
   m_EditorClassIdentifier: 
-  GroupName: Common
+  GroupName: UIManager
   Layouts:
-  - UxmlReference: {fileID: 9197481963319205126, guid: 93621e35e74f412c9b7d80cf2d2223fa, type: 3}
-  - UxmlReference: {fileID: 9197481963319205126, guid: 0b9586e7de7145cda4b9274a4e7129b9, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: f9140910a51d47259808a5431609d2fe, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: c65224cf19684f22a20969de8ae2ab01, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 7135f5f613694086b694b26020ef4657, type: 3}

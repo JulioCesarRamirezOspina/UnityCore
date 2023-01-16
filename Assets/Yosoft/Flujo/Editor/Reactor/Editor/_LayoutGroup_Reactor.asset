@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e20e2f472648eb83d3d869aecd7a20, type: 3}
+  m_Name: _LayoutGroup_Reactor
+  m_EditorClassIdentifier: 
+  GroupName: Reactor
+  Layouts:
+  - UxmlReference: {fileID: 9197481963319205126, guid: 1e054cb7cef54c83a9cfac2c26c12df7, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: ef63b121ecbd4b608ba53d035969de0e, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 115e05403b4449ab83fdebf263b5d8a6, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: e95b037b05654f50af7c2b5f7b19ba2e, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: bde30e7e3f754344a248595d5d8a2006, type: 3}

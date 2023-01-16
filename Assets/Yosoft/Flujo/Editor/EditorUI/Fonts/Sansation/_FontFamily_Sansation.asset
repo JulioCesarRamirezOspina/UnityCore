@@ -9,14 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cab4e994137470bb284175feb36c9d7, type: 3}
+  m_Script: {fileID: 11500000, guid: f2fe8a0493b34e60aa646b0942f059f3, type: 3}
   m_Name: _FontFamily_Sansation
   m_EditorClassIdentifier: 
   FontName: Sansation
   Fonts:
-  - FontReference: {fileID: 12800000, guid: b3483489b392f724992142b2b9377a17, type: 3}
+  - FontReference: {fileID: 12800000, guid: 9fe167bc5c5240cdaf3b4931256a506d, type: 3}
     Weight: 300
-  - FontReference: {fileID: 12800000, guid: d57075202c7e5964a98af7c6d32bbbc9, type: 3}
+  - FontReference: {fileID: 12800000, guid: 6b65d6f222d846d98305afee5604b855, type: 3}
     Weight: 400
-  - FontReference: {fileID: 12800000, guid: 63a48173f4a3f0748b94dc4310b99ba0, type: 3}
+  - FontReference: {fileID: 12800000, guid: ee61c0e04f7545eaa70e19d6a4349b33, type: 3}
     Weight: 700

@@ -15,5 +15,8 @@ MonoBehaviour:
   DatabaseName: Editor Colors
   DatabaseDescription: Collections of Colors used in the Editor
   Database:
+  - {fileID: 11400000, guid: 9889fc3a84464fa394a3457cc478563e, type: 2}
   - {fileID: 11400000, guid: 5c09bab3017b4693b804a5b68195d6d7, type: 2}
   - {fileID: 11400000, guid: 167842386dc68284db8f1bcd137e22f3, type: 2}
+  - {fileID: 11400000, guid: b348c4f836da4bacb4b10733fc8e4552, type: 2}
+  - {fileID: 11400000, guid: aff65ea8d93e4ea0b7af61b3d6c041be, type: 2}
