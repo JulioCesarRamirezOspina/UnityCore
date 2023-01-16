@@ -33,7 +33,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.Windows
             EditorDataLayoutDatabase.instance.RefreshDatabase();
             EditorDataMicroAnimationDatabase.instance.RefreshDatabase();
             EditorDataSelectableColorDatabase.instance.RefreshDatabase();
-            // EditorDataSpriteSheetDatabase.instance.RefreshDatabase();
+            EditorDataSpriteSheetDatabase.instance.RefreshDatabase();
             // EditorDataStyleDatabase.instance.RefreshDatabase();
             // EditorDataTextureDatabase.instance.RefreshDatabase();
         }

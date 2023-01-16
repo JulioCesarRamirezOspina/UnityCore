@@ -9,11 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61e20e2f472648eb83d3d869aecd7a20, type: 3}
+  m_Script: {fileID: 11500000, guid: a4bc019f47b0491b90c5b4ce696fa31d, type: 3}
   m_Name: _LayoutGroup_UIManager
   m_EditorClassIdentifier: 
   GroupName: UIManager
   Layouts:
-  - UxmlReference: {fileID: 9197481963319205126, guid: f9140910a51d47259808a5431609d2fe, type: 3}
-  - UxmlReference: {fileID: 9197481963319205126, guid: c65224cf19684f22a20969de8ae2ab01, type: 3}
-  - UxmlReference: {fileID: 9197481963319205126, guid: 7135f5f613694086b694b26020ef4657, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 8dcd9a2cbf9965c44af12513f6134c31,
+      type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 582361daaeed26b47808b389f50484e5,
+      type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 5293d76f5f1057843ba23093eac21534,
+      type: 3}

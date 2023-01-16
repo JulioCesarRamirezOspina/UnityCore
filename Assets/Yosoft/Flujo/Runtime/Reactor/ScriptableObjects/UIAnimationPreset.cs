@@ -1,6 +1,4 @@
 ﻿using System;
-using Doozy.Runtime.Reactor.ScriptableObjects;
-using Doozy.Runtime.Reactor.ScriptableObjects.Internal;
 using UnityEngine;
 using Yosoft.Flujo.Runtime.Common.Extensions;
 using Yosoft.Flujo.Runtime.Reactor.Animations;

@@ -15,4 +15,5 @@ MonoBehaviour:
   DatabaseName: Editor SelectableColors
   DatabaseDescription: Collections of SelectableColors used in the Editor
   Database:
+  - {fileID: 11400000, guid: ca62f626bf0a45a0bfd208024760fb05, type: 2}
   - {fileID: 11400000, guid: 5c3b8a30e51548c78a4e2276bca7c779, type: 2}

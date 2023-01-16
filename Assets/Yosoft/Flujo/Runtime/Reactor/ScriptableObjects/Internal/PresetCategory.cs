@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Doozy.Runtime.Reactor.ScriptableObjects.Internal
+namespace Yosoft.Flujo.Runtime.Reactor.ScriptableObjects.Internal
 {
     [Serializable]
     public class PresetCategory

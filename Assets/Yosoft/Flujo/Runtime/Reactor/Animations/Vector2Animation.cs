@@ -1,12 +1,11 @@
 ﻿using System;
 using UnityEngine;
-using Yosoft.Flujo.Runtime.Reactor;
 using Yosoft.Flujo.Runtime.Reactor.Animations.Internal;
 using Yosoft.Flujo.Runtime.Reactor.Internal;
 using Yosoft.Flujo.Runtime.Reactor.Reactions;
 using Yosoft.Flujo.Runtime.Reactor.Reflection;
 
-namespace Doozy.Runtime.Reactor.Animations
+namespace Yosoft.Flujo.Runtime.Reactor.Animations
 {
     [Serializable]
     public class Vector2Animation : ReactorAnimation

@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using Yosoft.Flujo.Runtime.Reactor;
 using Yosoft.Flujo.Runtime.Reactor.Animations.Internal;
 using Yosoft.Flujo.Runtime.Reactor.Internal;
 using Yosoft.Flujo.Runtime.Reactor.Reactions;
 using Yosoft.Flujo.Runtime.Reactor.Targets.Internal;
 
-namespace Doozy.Runtime.Reactor.Animations
+namespace Yosoft.Flujo.Runtime.Reactor.Animations
 {
     /// <summary>
     /// Reactor animation that works with a list of sprites.
