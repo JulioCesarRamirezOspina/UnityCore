@@ -101,6 +101,299 @@ namespace Yosoft.Flujo.Editor.EditorUI
                 
             }
 
+            public static class Icons
+            {
+                private static EditorDataSpriteSheetGroup s_spriteSheetGroup;
+                private static EditorDataSpriteSheetGroup spriteSheetGroup =>
+                    s_spriteSheetGroup
+                        ? s_spriteSheetGroup
+                        : s_spriteSheetGroup = EditorDataSpriteSheetDatabase.GetSpriteSheetGroup("EditorUI","Icons");
+
+                public static List<Texture2D> GetTextures(SpriteSheetName sheetName) =>
+                    spriteSheetGroup.GetTextures(sheetName.ToString());
+
+                public enum SpriteSheetName
+                {
+                    Animator,
+                    API,
+                    ApplicationQuit,
+                    Atom,
+                    AudioMixer,
+                    AudioMixerGroup,
+                    AutoDisable,
+                    Back,
+                    Binoculars,
+                    BookOpen,
+                    Border,
+                    ButtonClick,
+                    ButtonDoubleClick,
+                    ButtonLeftClick,
+                    ButtonLongClick,
+                    ButtonMiddleClick,
+                    ButtonRightClick,
+                    Camera,
+                    CategoryPlus,
+                    Clear,
+                    Close,
+                    Color,
+                    ConnectedDisconnected,
+                    Cooldown,
+                    Copy,
+                    Cut,
+                    Debug,
+                    DelayBetweenLoops,
+                    Deselected,
+                    Dice,
+                    DisabledEnabled,
+                    DisconnectedConnected,
+                    Duration,
+                    Edit,
+                    EditorSettings,
+                    Email,
+                    EmptyList,
+                    EnabledDisabled,
+                    EventsOnFinish,
+                    EventsOnStart,
+                    Export,
+                    Facebook,
+                    Feather,
+                    Filter,
+                    FirstFrame,
+                    FixedUpdate,
+                    Font,
+                    GameObject,
+                    GenericDatabase,
+                    Hide,
+                    Hourglass,
+                    Idle,
+                    Import,
+                    Info,
+                    Integrations,
+                    Label,
+                    Landscape,
+                    Language,
+                    LastFrame,
+                    LateUpdate,
+                    Link,
+                    Load,
+                    Location,
+                    Locked,
+                    LockedUnlocked,
+                    Loop,
+                    MagicWand,
+                    Manual,
+                    Minus,
+                    More,
+                    Music,
+                    Navigation,
+                    News,
+                    OffOn,
+                    OneShot,
+                    OnOff,
+                    Orientation,
+                    Paste,
+                    PingPong,
+                    PingPongOnce,
+                    Play,
+                    PlayForward,
+                    PlayPause,
+                    PlayReverse,
+                    PlayStop,
+                    Plus,
+                    PointerDown,
+                    PointerEnter,
+                    PointerExit,
+                    PointerUp,
+                    Portrait,
+                    Prefab,
+                    QuestionMark,
+                    RawImage,
+                    Recent,
+                    Redo,
+                    Refresh,
+                    Reset,
+                    Reverse,
+                    Save,
+                    SaveAs,
+                    Scripting,
+                    Search,
+                    Selectable,
+                    SelectableColorGenerator,
+                    SelectableStates,
+                    Selected,
+                    Settings,
+                    Shake,
+                    Show,
+                    SortAz,
+                    SortHue,
+                    SortZa,
+                    Sound,
+                    SoundMute,
+                    Spring,
+                    Sprite,
+                    SpriteRenderer,
+                    StartDelay,
+                    Stop,
+                    SupportRequest,
+                    Texture,
+                    TimeScale,
+                    ToggleMixed,
+                    ToggleOFF,
+                    ToggleON,
+                    Tooltip,
+                    UIBehaviour,
+                    Undo,
+                    Unity,
+                    UnityEvent,
+                    Unlink,
+                    Unlocked,
+                    VisibilityChanged,
+                    Windows,
+                    Youtube,
+                    Zoom
+                }
+                
+
+                public static List<Texture2D> Animator => GetTextures(SpriteSheetName.Animator);
+                public static List<Texture2D> API => GetTextures(SpriteSheetName.API);
+                public static List<Texture2D> ApplicationQuit => GetTextures(SpriteSheetName.ApplicationQuit);
+                public static List<Texture2D> Atom => GetTextures(SpriteSheetName.Atom);
+                public static List<Texture2D> AudioMixer => GetTextures(SpriteSheetName.AudioMixer);
+                public static List<Texture2D> AudioMixerGroup => GetTextures(SpriteSheetName.AudioMixerGroup);
+                public static List<Texture2D> AutoDisable => GetTextures(SpriteSheetName.AutoDisable);
+                public static List<Texture2D> Back => GetTextures(SpriteSheetName.Back);
+                public static List<Texture2D> Binoculars => GetTextures(SpriteSheetName.Binoculars);
+                public static List<Texture2D> BookOpen => GetTextures(SpriteSheetName.BookOpen);
+                public static List<Texture2D> Border => GetTextures(SpriteSheetName.Border);
+                public static List<Texture2D> ButtonClick => GetTextures(SpriteSheetName.ButtonClick);
+                public static List<Texture2D> ButtonDoubleClick => GetTextures(SpriteSheetName.ButtonDoubleClick);
+                public static List<Texture2D> ButtonLeftClick => GetTextures(SpriteSheetName.ButtonLeftClick);
+                public static List<Texture2D> ButtonLongClick => GetTextures(SpriteSheetName.ButtonLongClick);
+                public static List<Texture2D> ButtonMiddleClick => GetTextures(SpriteSheetName.ButtonMiddleClick);
+                public static List<Texture2D> ButtonRightClick => GetTextures(SpriteSheetName.ButtonRightClick);
+                public static List<Texture2D> Camera => GetTextures(SpriteSheetName.Camera);
+                public static List<Texture2D> CategoryPlus => GetTextures(SpriteSheetName.CategoryPlus);
+                public static List<Texture2D> Clear => GetTextures(SpriteSheetName.Clear);
+                public static List<Texture2D> Close => GetTextures(SpriteSheetName.Close);
+                public static List<Texture2D> Color => GetTextures(SpriteSheetName.Color);
+                public static List<Texture2D> ConnectedDisconnected => GetTextures(SpriteSheetName.ConnectedDisconnected);
+                public static List<Texture2D> Cooldown => GetTextures(SpriteSheetName.Cooldown);
+                public static List<Texture2D> Copy => GetTextures(SpriteSheetName.Copy);
+                public static List<Texture2D> Cut => GetTextures(SpriteSheetName.Cut);
+                public static List<Texture2D> Debug => GetTextures(SpriteSheetName.Debug);
+                public static List<Texture2D> DelayBetweenLoops => GetTextures(SpriteSheetName.DelayBetweenLoops);
+                public static List<Texture2D> Deselected => GetTextures(SpriteSheetName.Deselected);
+                public static List<Texture2D> Dice => GetTextures(SpriteSheetName.Dice);
+                public static List<Texture2D> DisabledEnabled => GetTextures(SpriteSheetName.DisabledEnabled);
+                public static List<Texture2D> DisconnectedConnected => GetTextures(SpriteSheetName.DisconnectedConnected);
+                public static List<Texture2D> Duration => GetTextures(SpriteSheetName.Duration);
+                public static List<Texture2D> Edit => GetTextures(SpriteSheetName.Edit);
+                public static List<Texture2D> EditorSettings => GetTextures(SpriteSheetName.EditorSettings);
+                public static List<Texture2D> Email => GetTextures(SpriteSheetName.Email);
+                public static List<Texture2D> EmptyList => GetTextures(SpriteSheetName.EmptyList);
+                public static List<Texture2D> EnabledDisabled => GetTextures(SpriteSheetName.EnabledDisabled);
+                public static List<Texture2D> EventsOnFinish => GetTextures(SpriteSheetName.EventsOnFinish);
+                public static List<Texture2D> EventsOnStart => GetTextures(SpriteSheetName.EventsOnStart);
+                public static List<Texture2D> Export => GetTextures(SpriteSheetName.Export);
+                public static List<Texture2D> Facebook => GetTextures(SpriteSheetName.Facebook);
+                public static List<Texture2D> Feather => GetTextures(SpriteSheetName.Feather);
+                public static List<Texture2D> Filter => GetTextures(SpriteSheetName.Filter);
+                public static List<Texture2D> FirstFrame => GetTextures(SpriteSheetName.FirstFrame);
+                public static List<Texture2D> FixedUpdate => GetTextures(SpriteSheetName.FixedUpdate);
+                public static List<Texture2D> Font => GetTextures(SpriteSheetName.Font);
+                public static List<Texture2D> GameObject => GetTextures(SpriteSheetName.GameObject);
+                public static List<Texture2D> GenericDatabase => GetTextures(SpriteSheetName.GenericDatabase);
+                public static List<Texture2D> Hide => GetTextures(SpriteSheetName.Hide);
+                public static List<Texture2D> Hourglass => GetTextures(SpriteSheetName.Hourglass);
+                public static List<Texture2D> Idle => GetTextures(SpriteSheetName.Idle);
+                public static List<Texture2D> Import => GetTextures(SpriteSheetName.Import);
+                public static List<Texture2D> Info => GetTextures(SpriteSheetName.Info);
+                public static List<Texture2D> Integrations => GetTextures(SpriteSheetName.Integrations);
+                public static List<Texture2D> Label => GetTextures(SpriteSheetName.Label);
+                public static List<Texture2D> Landscape => GetTextures(SpriteSheetName.Landscape);
+                public static List<Texture2D> Language => GetTextures(SpriteSheetName.Language);
+                public static List<Texture2D> LastFrame => GetTextures(SpriteSheetName.LastFrame);
+                public static List<Texture2D> LateUpdate => GetTextures(SpriteSheetName.LateUpdate);
+                public static List<Texture2D> Link => GetTextures(SpriteSheetName.Link);
+                public static List<Texture2D> Load => GetTextures(SpriteSheetName.Load);
+                public static List<Texture2D> Location => GetTextures(SpriteSheetName.Location);
+                public static List<Texture2D> Locked => GetTextures(SpriteSheetName.Locked);
+                public static List<Texture2D> LockedUnlocked => GetTextures(SpriteSheetName.LockedUnlocked);
+                public static List<Texture2D> Loop => GetTextures(SpriteSheetName.Loop);
+                public static List<Texture2D> MagicWand => GetTextures(SpriteSheetName.MagicWand);
+                public static List<Texture2D> Manual => GetTextures(SpriteSheetName.Manual);
+                public static List<Texture2D> Minus => GetTextures(SpriteSheetName.Minus);
+                public static List<Texture2D> More => GetTextures(SpriteSheetName.More);
+                public static List<Texture2D> Music => GetTextures(SpriteSheetName.Music);
+                public static List<Texture2D> Navigation => GetTextures(SpriteSheetName.Navigation);
+                public static List<Texture2D> News => GetTextures(SpriteSheetName.News);
+                public static List<Texture2D> OffOn => GetTextures(SpriteSheetName.OffOn);
+                public static List<Texture2D> OneShot => GetTextures(SpriteSheetName.OneShot);
+                public static List<Texture2D> OnOff => GetTextures(SpriteSheetName.OnOff);
+                public static List<Texture2D> Orientation => GetTextures(SpriteSheetName.Orientation);
+                public static List<Texture2D> Paste => GetTextures(SpriteSheetName.Paste);
+                public static List<Texture2D> PingPong => GetTextures(SpriteSheetName.PingPong);
+                public static List<Texture2D> PingPongOnce => GetTextures(SpriteSheetName.PingPongOnce);
+                public static List<Texture2D> Play => GetTextures(SpriteSheetName.Play);
+                public static List<Texture2D> PlayForward => GetTextures(SpriteSheetName.PlayForward);
+                public static List<Texture2D> PlayPause => GetTextures(SpriteSheetName.PlayPause);
+                public static List<Texture2D> PlayReverse => GetTextures(SpriteSheetName.PlayReverse);
+                public static List<Texture2D> PlayStop => GetTextures(SpriteSheetName.PlayStop);
+                public static List<Texture2D> Plus => GetTextures(SpriteSheetName.Plus);
+                public static List<Texture2D> PointerDown => GetTextures(SpriteSheetName.PointerDown);
+                public static List<Texture2D> PointerEnter => GetTextures(SpriteSheetName.PointerEnter);
+                public static List<Texture2D> PointerExit => GetTextures(SpriteSheetName.PointerExit);
+                public static List<Texture2D> PointerUp => GetTextures(SpriteSheetName.PointerUp);
+                public static List<Texture2D> Portrait => GetTextures(SpriteSheetName.Portrait);
+                public static List<Texture2D> Prefab => GetTextures(SpriteSheetName.Prefab);
+                public static List<Texture2D> QuestionMark => GetTextures(SpriteSheetName.QuestionMark);
+                public static List<Texture2D> RawImage => GetTextures(SpriteSheetName.RawImage);
+                public static List<Texture2D> Recent => GetTextures(SpriteSheetName.Recent);
+                public static List<Texture2D> Redo => GetTextures(SpriteSheetName.Redo);
+                public static List<Texture2D> Refresh => GetTextures(SpriteSheetName.Refresh);
+                public static List<Texture2D> Reset => GetTextures(SpriteSheetName.Reset);
+                public static List<Texture2D> Reverse => GetTextures(SpriteSheetName.Reverse);
+                public static List<Texture2D> Save => GetTextures(SpriteSheetName.Save);
+                public static List<Texture2D> SaveAs => GetTextures(SpriteSheetName.SaveAs);
+                public static List<Texture2D> Scripting => GetTextures(SpriteSheetName.Scripting);
+                public static List<Texture2D> Search => GetTextures(SpriteSheetName.Search);
+                public static List<Texture2D> Selectable => GetTextures(SpriteSheetName.Selectable);
+                public static List<Texture2D> SelectableColorGenerator => GetTextures(SpriteSheetName.SelectableColorGenerator);
+                public static List<Texture2D> SelectableStates => GetTextures(SpriteSheetName.SelectableStates);
+                public static List<Texture2D> Selected => GetTextures(SpriteSheetName.Selected);
+                public static List<Texture2D> Settings => GetTextures(SpriteSheetName.Settings);
+                public static List<Texture2D> Shake => GetTextures(SpriteSheetName.Shake);
+                public static List<Texture2D> Show => GetTextures(SpriteSheetName.Show);
+                public static List<Texture2D> SortAz => GetTextures(SpriteSheetName.SortAz);
+                public static List<Texture2D> SortHue => GetTextures(SpriteSheetName.SortHue);
+                public static List<Texture2D> SortZa => GetTextures(SpriteSheetName.SortZa);
+                public static List<Texture2D> Sound => GetTextures(SpriteSheetName.Sound);
+                public static List<Texture2D> SoundMute => GetTextures(SpriteSheetName.SoundMute);
+                public static List<Texture2D> Spring => GetTextures(SpriteSheetName.Spring);
+                public static List<Texture2D> Sprite => GetTextures(SpriteSheetName.Sprite);
+                public static List<Texture2D> SpriteRenderer => GetTextures(SpriteSheetName.SpriteRenderer);
+                public static List<Texture2D> StartDelay => GetTextures(SpriteSheetName.StartDelay);
+                public static List<Texture2D> Stop => GetTextures(SpriteSheetName.Stop);
+                public static List<Texture2D> SupportRequest => GetTextures(SpriteSheetName.SupportRequest);
+                public static List<Texture2D> Texture => GetTextures(SpriteSheetName.Texture);
+                public static List<Texture2D> TimeScale => GetTextures(SpriteSheetName.TimeScale);
+                public static List<Texture2D> ToggleMixed => GetTextures(SpriteSheetName.ToggleMixed);
+                public static List<Texture2D> ToggleOFF => GetTextures(SpriteSheetName.ToggleOFF);
+                public static List<Texture2D> ToggleON => GetTextures(SpriteSheetName.ToggleON);
+                public static List<Texture2D> Tooltip => GetTextures(SpriteSheetName.Tooltip);
+                public static List<Texture2D> UIBehaviour => GetTextures(SpriteSheetName.UIBehaviour);
+                public static List<Texture2D> Undo => GetTextures(SpriteSheetName.Undo);
+                public static List<Texture2D> Unity => GetTextures(SpriteSheetName.Unity);
+                public static List<Texture2D> UnityEvent => GetTextures(SpriteSheetName.UnityEvent);
+                public static List<Texture2D> Unlink => GetTextures(SpriteSheetName.Unlink);
+                public static List<Texture2D> Unlocked => GetTextures(SpriteSheetName.Unlocked);
+                public static List<Texture2D> VisibilityChanged => GetTextures(SpriteSheetName.VisibilityChanged);
+                public static List<Texture2D> Windows => GetTextures(SpriteSheetName.Windows);
+                public static List<Texture2D> Youtube => GetTextures(SpriteSheetName.Youtube);
+                public static List<Texture2D> Zoom => GetTextures(SpriteSheetName.Zoom);
+                
+            }
+
             public static class Placeholders
             {
                 private static EditorDataSpriteSheetGroup s_spriteSheetGroup;
@@ -156,47 +449,6 @@ namespace Yosoft.Flujo.Editor.EditorUI
                 
 
                 public static List<Texture2D> CircularGauge => GetTextures(SpriteSheetName.CircularGauge);
-                
-            }
-
-
-        }
-
-
-        public static class General
-        {
-            public static class Arrows
-            {
-                private static EditorDataSpriteSheetGroup s_spriteSheetGroup;
-                private static EditorDataSpriteSheetGroup spriteSheetGroup =>
-                    s_spriteSheetGroup
-                        ? s_spriteSheetGroup
-                        : s_spriteSheetGroup = EditorDataSpriteSheetDatabase.GetSpriteSheetGroup("General","Arrows");
-
-                public static List<Texture2D> GetTextures(SpriteSheetName sheetName) =>
-                    spriteSheetGroup.GetTextures(sheetName.ToString());
-
-                public enum SpriteSheetName
-                {
-                    ArrowDown,
-                    ArrowLeft,
-                    ArrowRight,
-                    ArrowUp,
-                    ChevronDown,
-                    ChevronLeft,
-                    ChevronRight,
-                    ChevronUp
-                }
-                
-
-                public static List<Texture2D> ArrowDown => GetTextures(SpriteSheetName.ArrowDown);
-                public static List<Texture2D> ArrowLeft => GetTextures(SpriteSheetName.ArrowLeft);
-                public static List<Texture2D> ArrowRight => GetTextures(SpriteSheetName.ArrowRight);
-                public static List<Texture2D> ArrowUp => GetTextures(SpriteSheetName.ArrowUp);
-                public static List<Texture2D> ChevronDown => GetTextures(SpriteSheetName.ChevronDown);
-                public static List<Texture2D> ChevronLeft => GetTextures(SpriteSheetName.ChevronLeft);
-                public static List<Texture2D> ChevronRight => GetTextures(SpriteSheetName.ChevronRight);
-                public static List<Texture2D> ChevronUp => GetTextures(SpriteSheetName.ChevronUp);
                 
             }
 

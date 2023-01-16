@@ -16,8 +16,8 @@ MonoBehaviour:
   DatabaseDescription: Collection of SpriteSheets used in the Editor
   Database:
   - {fileID: 11400000, guid: 64119521d701266418493433669b830a, type: 2}
-  - {fileID: 11400000, guid: 5f6b777e7488c1d478e96765289fbbb8, type: 2}
   - {fileID: 11400000, guid: b4c224f7b48e88e4db035e7ce60ae2e8, type: 2}
+  - {fileID: 11400000, guid: 509090ce1208feb4ca3bc3e7e1d1d8ef, type: 2}
   - {fileID: 11400000, guid: 9501c238ba71c0346aea10db4034828d, type: 2}
   - {fileID: 11400000, guid: 0087b5599c8de5944b9c3237dca33ac0, type: 2}
   - {fileID: 11400000, guid: f031426000fff5148b8ac7f333df2c89, type: 2}

@@ -307,7 +307,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.Utils
             FluidToggleButtonTab.Get()
                 .SetTabPosition(TabPosition.TabOnBottom)
                 .SetElementSize(ElementSize.Small)
-                .SetIcon(EditorSpriteSheets.UIManager.Icons.BackButton)
+                .SetIcon(EditorSpriteSheets.EditorUI.Icons.Label)
                 .SetLabelText("Name")
                 .SetContainerColorOff(tabButtonColorOff);
 
