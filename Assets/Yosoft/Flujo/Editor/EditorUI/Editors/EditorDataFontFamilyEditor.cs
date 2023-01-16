@@ -82,7 +82,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.Editors
 
             loadFilesFromFolderButton =
                 FluidButton.Get()
-                    .SetIcon(EditorSpriteSheets.EditorUI.Icons.Search)
+                    .SetIcon(EditorSpriteSheets.UIManager.Icons.BackButton)
                     .SetLabelText("Load all .ttf files from the current folder")
                     .SetAccentColor(EditorSelectableColors.EditorUI.Amber)
                     .SetTooltip

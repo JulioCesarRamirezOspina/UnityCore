@@ -307,7 +307,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.Utils
             FluidToggleButtonTab.Get()
                 .SetTabPosition(TabPosition.TabOnBottom)
                 .SetElementSize(ElementSize.Small)
-                .SetIcon(EditorSpriteSheets.EditorUI.Icons.Label)
+                .SetIcon(EditorSpriteSheets.UIManager.Icons.BackButton)
                 .SetLabelText("Name")
                 .SetContainerColorOff(tabButtonColorOff);
 
@@ -351,7 +351,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.Utils
         /// <para/> Fluid button used under headers for in-editor actions
         /// </summary>
         public static FluidButton SystemButton_SortComponents(GameObject targetGameObject, params string[] customSortedComponentNames) =>
-            SystemButton(EditorSpriteSheets.EditorUI.Icons.SortAz)
+            SystemButton(EditorSpriteSheets.UIManager.Icons.BackButton)
                 .SetTooltip("Sort the components, on this gameObject, in a custom alphabetical order")
                 .SetOnClick(() => EditorUtils.SortComponents(targetGameObject, customSortedComponentNames));
 
@@ -360,7 +360,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.Utils
         /// <para/> Fluid button used under headers for in-editor actions
         /// </summary>
         public static FluidButton SystemButton_RenameComponent(GameObject targetGameObject, Func<string> newName) =>
-            SystemButton(EditorSpriteSheets.EditorUI.Icons.Edit)
+            SystemButton(EditorSpriteSheets.UIManager.Icons.BackButton)
                 .SetTooltip($"Rename GameObject")
                 .SetOnClick(() =>
                 {
@@ -373,7 +373,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.Utils
         /// <para/> Fluid button used under headers for in-editor actions
         /// </summary>
         public static FluidButton SystemButton_RenameAsset(Object targetAsset, Func<string> newName) =>
-            SystemButton(EditorSpriteSheets.EditorUI.Icons.Edit)
+            SystemButton(EditorSpriteSheets.UIManager.Icons.BackButton)
                 .SetTooltip($"Rename Asset")
                 .SetOnClick(() =>
                 {

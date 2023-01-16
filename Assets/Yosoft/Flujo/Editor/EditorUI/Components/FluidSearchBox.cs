@@ -127,21 +127,21 @@ namespace Yosoft.Flujo.Editor.EditorUI.Components
             //INJECT SEARCH ICON BUTTON
             buttonContainer.Insert(0,
                 searchButton =
-                    GetNewSearchButton(EditorSpriteSheets.EditorUI.Icons.Search)
+                    GetNewSearchButton(EditorSpriteSheets.UIManager.Icons.BackButton)
                         .SetOnClick(() => searchTextFieldInput.Focus())
             );
 
             //INJECT CANCEL SEARCH ICON BUTTON
             buttonContainer.Insert(1,
                 cancelSearchButton =
-                    GetNewSearchButton(EditorSpriteSheets.EditorUI.Icons.Close)
+                    GetNewSearchButton(EditorSpriteSheets.UIManager.Icons.BackButton)
                         .SetAccentColor(EditorSelectableColors.EditorUI.Red)
                         .SetOnClick(ClearSearch)
             );
 
             //INITIALIZE SEARCH TAB BUTTON (that gets injected in the menu and is used to show search results content)
             searchTabButton =
-                FluidToggleButtonTab.Get(SEARCH_TEXT, EditorSpriteSheets.EditorUI.Icons.Search)
+                FluidToggleButtonTab.Get(SEARCH_TEXT, EditorSpriteSheets.UIManager.Icons.BackButton)
                     .SetElementSize(ElementSize.Small)
                     .SetStyleMarginBottom(8)
                     .SetTabPosition(TabPosition.FloatingTab)

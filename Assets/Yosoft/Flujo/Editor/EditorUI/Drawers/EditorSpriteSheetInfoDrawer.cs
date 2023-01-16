@@ -123,7 +123,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.Drawers
 
             FluidButton playForwardButton =
                 FluidButton.Get()
-                    .SetIcon(EditorSpriteSheets.EditorUI.Icons.PlayForward)
+                    .SetIcon(EditorSpriteSheets.UIManager.Icons.BackButton)
                     .SetAccentColor(EditorSelectableColors.EditorUI.LightGreen)
                     .SetTooltip("Play Forward")
                     .SetElementSize(ElementSize.Small)
@@ -132,7 +132,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.Drawers
 
             FluidButton playReversedButton =
                 FluidButton.Get()
-                    .SetIcon(EditorSpriteSheets.EditorUI.Icons.PlayReverse)
+                    .SetIcon(EditorSpriteSheets.UIManager.Icons.BackButton)
                     .SetAccentColor(EditorSelectableColors.EditorUI.LightGreen)
                     .SetTooltip("Play Reversed")
                     .SetElementSize(ElementSize.Small)

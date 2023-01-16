@@ -576,13 +576,13 @@ namespace Yosoft.Flujo.Editor.EditorUI.Components
                     .SetAccentColor(accentColor)
                     .SetTooltip(tooltip);
 
-            public static FluidButton addButton => GetNewToolbarButton(EditorSpriteSheets.EditorUI.Icons.Plus, "Add Item").SetAccentColor(addSelectableColor);
-            public static FluidButton removeButton => GetNewToolbarButton(EditorSpriteSheets.EditorUI.Icons.Minus, "Remove Item").SetAccentColor(removeSelectableColor);
-            public static FluidButton clearButton => GetNewToolbarButton(EditorSpriteSheets.EditorUI.Icons.Clear, "Clear");
-            public static FluidButton sortAzButton => GetNewToolbarButton(EditorSpriteSheets.EditorUI.Icons.SortAz, "Sort AZ");
-            public static FluidButton sortZaButton => GetNewToolbarButton(EditorSpriteSheets.EditorUI.Icons.SortZa, "Sort ZA");
-            public static FluidButton sortHueButton => GetNewToolbarButton(EditorSpriteSheets.EditorUI.Icons.SortHue, "Sort HUE");
-            public static FluidButton saveButton => GetNewToolbarButton(EditorSpriteSheets.EditorUI.Icons.Save, "Save");
+            public static FluidButton addButton => GetNewToolbarButton(EditorSpriteSheets.UIManager.Icons.BackButton, "Add Item").SetAccentColor(addSelectableColor);
+            public static FluidButton removeButton => GetNewToolbarButton(EditorSpriteSheets.UIManager.Icons.BackButton, "Remove Item").SetAccentColor(removeSelectableColor);
+            public static FluidButton clearButton => GetNewToolbarButton(EditorSpriteSheets.UIManager.Icons.BackButton, "Clear");
+            public static FluidButton sortAzButton => GetNewToolbarButton(EditorSpriteSheets.UIManager.Icons.BackButton, "Sort AZ");
+            public static FluidButton sortZaButton => GetNewToolbarButton(EditorSpriteSheets.UIManager.Icons.BackButton, "Sort ZA");
+            public static FluidButton sortHueButton => GetNewToolbarButton(EditorSpriteSheets.UIManager.Icons.BackButton, "Sort HUE");
+            public static FluidButton saveButton => GetNewToolbarButton(EditorSpriteSheets.UIManager.Icons.BackButton, "Save");
         }
     }
 }

@@ -75,14 +75,14 @@ namespace Yosoft.Flujo.Editor.EditorUI.Editors
             root = DesignUtils.GetEditorRoot();
 
             loadFilesFromFolderButton = FluidButton.Get()
-                .SetIcon(EditorSpriteSheets.EditorUI.Icons.Search)
+                .SetIcon(EditorSpriteSheets.UIManager.Icons.BackButton)
                 .SetLabelText("Load all .png files from the current folder")
                 .SetAccentColor(EditorSelectableColors.EditorUI.Amber)
                 .SetButtonStyle(ButtonStyle.Contained)
                 .SetElementSize(ElementSize.Small)
                 .SetOnClick(LoadTexturesFromFolder);
 
-            categoryComponentField = FluidField.Get("SpriteSheet Category Name").SetIcon(EditorSpriteSheets.EditorUI.Icons.SpriteSheet);
+            categoryComponentField = FluidField.Get("SpriteSheet Category Name").SetIcon(EditorSpriteSheets.UIManager.Icons.BackButton);
             TextField categoryTextField = DesignUtils.NewTextField("GroupCategory", true).SetStyleFlexGrow(1);
             categoryTextField.RegisterValueChangedCallback(evt =>
             {

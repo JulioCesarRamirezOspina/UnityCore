@@ -87,7 +87,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.Editors
             root = DesignUtils.GetEditorRoot();
 
             loadAnimationsFromFoldersButton = FluidButton.Get()
-                .SetIcon(EditorSpriteSheets.EditorUI.Icons.Search)
+                .SetIcon(EditorSpriteSheets.UIManager.Icons.BackButton)
                 .SetLabelText("Load all .png files from the all the sub-folders")
                 .SetAccentColor(EditorSelectableColors.EditorUI.Amber)
                 .SetButtonStyle(ButtonStyle.Contained)

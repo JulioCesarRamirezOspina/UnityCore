@@ -207,26 +207,26 @@ namespace Yosoft.Flujo.Editor.EditorUI.Components
         public FluidComponentHeader AddApiButton(string url = "https://api.doozyui.com/api/index.html")
         {
             if (EditorApplication.isPlayingOrWillChangePlaymode) return this; //do not add Manual button in play mode
-            return AddElement(GetNewButton(EditorSpriteSheets.EditorUI.Icons.API, "API")
+            return AddElement(GetNewButton(EditorSpriteSheets.UIManager.Icons.BackButton, "API")
                 .SetOnClick(() => Application.OpenURL(url)));
         }
         
         public FluidComponentHeader AddManualButton(string url = "https://bit.ly/DoozyKnowledgeBase4")
         {
             if (EditorApplication.isPlayingOrWillChangePlaymode) return this; //do not add Manual button in play mode
-            return AddElement(GetNewButton(EditorSpriteSheets.EditorUI.Icons.BookOpen, "Manual")
+            return AddElement(GetNewButton(EditorSpriteSheets.UIManager.Icons.BackButton, "Manual")
                 .SetOnClick(() => Application.OpenURL(url)));
         }
 
         public FluidComponentHeader AddYouTubeButton(string url = "www.youtube.com/c/DoozyEntertainment")
         {
             if (EditorApplication.isPlayingOrWillChangePlaymode) return this; //do not add YouTube button in play mode
-            return AddElement(GetNewButton(EditorSpriteSheets.EditorUI.Icons.Youtube, "YouTube")
+            return AddElement(GetNewButton(EditorSpriteSheets.UIManager.Icons.BackButton, "YouTube")
                 .SetOnClick(() => Application.OpenURL(url)));
         }
 
         public FluidComponentHeader AddSettingsButton(UnityAction callback) =>
-            AddElement(GetNewButton(EditorSpriteSheets.EditorUI.Icons.Settings, "Settings")
+            AddElement(GetNewButton(EditorSpriteSheets.UIManager.Icons.BackButton, "Settings")
                 .SetOnClick(callback));
 
         public FluidComponentHeader AddButton(List<Texture2D> animatedIcon, string buttonTooltip, UnityAction callback) =>

@@ -26,7 +26,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.ScriptableObjects
     [CustomEditor(typeof(EditorUISettings))]
     public class EditorUISettingsEditor : UnityEditor.Editor
     {
-        private static IEnumerable<Texture2D> iconTextures => EditorSpriteSheets.EditorUI.Icons.EditorSettings;
+        private static IEnumerable<Texture2D> iconTextures => EditorSpriteSheets.UIManager.Icons.BackButton;
         private static Color accentColor => EditorColors.EditorUI.Amber;
         private static EditorSelectableColorInfo selectableAccentColor => EditorSelectableColors.EditorUI.Amber;
 
@@ -78,7 +78,7 @@ namespace Yosoft.Flujo.Editor.EditorUI.ScriptableObjects
             saveButton =
                 FluidButton.Get()
                     .SetLabelText("Save")
-                    .SetIcon(EditorSpriteSheets.EditorUI.Icons.Save)
+                    .SetIcon(EditorSpriteSheets.UIManager.Icons.BackButton)
                     .SetButtonStyle(ButtonStyle.Contained)
                     .SetElementSize(ElementSize.Small)
                     .SetOnClick(() =>
